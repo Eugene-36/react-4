@@ -1,0 +1,43 @@
+.searchBlock {
+  display: flex;
+  justify-content: center;
+
+  padding: 15px;
+  background: lightblue;
+}
+.searchBlock form {
+  display: flex;
+  flex-direction: row-reverse;
+}
+/* ===========
+============ */
+.searchBlock button {
+  border: none;
+  background: #ffffff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.inputElevated {
+  font-size: 16px;
+  line-height: 1.5;
+  border: none;
+  background: #ffffff;
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  background-size: 20px 20px;
+  /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08); */
+  /* border-radius: 5px; */
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 300px;
+  padding: 0.5em 1em 0.5em 1em;
+}
+
+.inputElevated::placeholder {
+  color: #838d99;
+}
+
+.inputElevated:focus {
+  outline: none;
+  /* box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16); */
+}

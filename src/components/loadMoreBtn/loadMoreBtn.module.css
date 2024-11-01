@@ -1,0 +1,19 @@
+.btnContainer {
+  padding: 20px;
+}
+.btnContainer button {
+  transition: 0.3s;
+  border: none;
+  background-color: #000;
+  color: #fff !important;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 20px;
+  margin: 50px 0;
+  display: inline-block;
+}
+
+.btnContainer button:hover {
+  background-color: blue;
+  text-decoration: none;
+}
