@@ -1,0 +1,22 @@
+.modalContainer ul li {
+  margin: 0 0 20px 0;
+}
+.modalContainer ul li svg {
+  margin: 0 0 0 5px;
+}
+.modalContainer ul li a {
+  color: black;
+}
+.modalContainer img {
+  width: 1080px;
+  height: 719px;
+  object-fit: cover;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+}

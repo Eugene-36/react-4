@@ -3,7 +3,9 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   border: none;
   font: 16px 'Outfit', sans-serif;
